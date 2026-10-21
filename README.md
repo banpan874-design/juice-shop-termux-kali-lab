@@ -21,6 +21,8 @@ Termux is not an officially supported Juice Shop deployment platform. Native Nod
 - [Kali and Burp Suite setup](docs/kali-burp-setup.md)
 - [Guided practice](docs/guided-practice.md)
 - [Reconnaissance and vulnerability scanning](docs/recon-vulnerability-scanning.md)
+- [Kali tool chooser](docs/tool-selection-guide.md)
+- [Strict localhost-only setup](docs/localhost-only-setup.md)
 - [Exploitation workflow (authorized lab only)](docs/exploitation-workflow.md)
 - [Troubleshooting](docs/troubleshooting.md)
 - [Lab checklist](CHECKLIST.md)
@@ -60,7 +62,7 @@ Install/open Burp Suite Community Edition on Kali. Use Burp's built-in browser o
 
 ### 4. Practice responsibly
 
-Start with normal browsing, inspect requests and responses, then work through Juice Shop's built-in challenges. The [guided practice](docs/guided-practice.md) covers HTTP basics, authentication, SQL injection concepts, XSS, access control, and reporting. Then use the scoped [reconnaissance and vulnerability scanning guide](docs/recon-vulnerability-scanning.md) and the [exploitation workflow](docs/exploitation-workflow.md). Keep all requests aimed only at your lab instance.
+For the strictest beginner setup, run Juice Shop on Kali bound to localhost and follow the [localhost-only setup](docs/localhost-only-setup.md). Use the [Kali tool chooser](docs/tool-selection-guide.md) to pick the right tool for each stage, then work through [reconnaissance and vulnerability scanning](docs/recon-vulnerability-scanning.md), [guided practice](docs/guided-practice.md), and the [exploitation workflow](docs/exploitation-workflow.md). The tool chooser uses only `127.0.0.1:3000`; remember that localhost on Kali is not the same as localhost on your phone.
 
 ## Stop the lab
 
