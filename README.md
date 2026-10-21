@@ -20,6 +20,8 @@ Termux is not an officially supported Juice Shop deployment platform. Native Nod
 - [Private network setup](docs/private-network-setup.md)
 - [Kali and Burp Suite setup](docs/kali-burp-setup.md)
 - [Guided practice](docs/guided-practice.md)
+- [Reconnaissance and vulnerability scanning](docs/recon-vulnerability-scanning.md)
+- [Exploitation workflow (authorized lab only)](docs/exploitation-workflow.md)
 - [Troubleshooting](docs/troubleshooting.md)
 - [Lab checklist](CHECKLIST.md)
 - [Security rules](SECURITY.md)
@@ -58,7 +60,7 @@ Install/open Burp Suite Community Edition on Kali. Use Burp's built-in browser o
 
 ### 4. Practice responsibly
 
-Start with normal browsing, inspect requests and responses, then work through Juice Shop's built-in challenges. The [guided practice](docs/guided-practice.md) starts with HTTP basics and moves into beginner-friendly SQL injection, reflected/stored XSS concepts, access control, and evidence-based reporting. Keep all requests aimed only at your lab instance.
+Start with normal browsing, inspect requests and responses, then work through Juice Shop's built-in challenges. The [guided practice](docs/guided-practice.md) covers HTTP basics, authentication, SQL injection concepts, XSS, access control, and reporting. Then use the scoped [reconnaissance and vulnerability scanning guide](docs/recon-vulnerability-scanning.md) and the [exploitation workflow](docs/exploitation-workflow.md). Keep all requests aimed only at your lab instance.
 
 ## Stop the lab
 
